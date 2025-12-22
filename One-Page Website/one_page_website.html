@@ -1,10 +1,130 @@
-<DOCTYPE html>
-<html lang="en-us">
-	<meta charset="UTF-8"
-	<link
-  rel="stylesheet"
-  href="https://unpkg.com/98.css"
->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<body style=background-color:#FFA8BD;>
+	
+	<style>
+	
+p {
+    color: #FF4088;
+}
+	
+header {
+    flex: 2;
+    background-color: #FFE5F0;
+    padding: 10px;
+    margin: 0;
+}
+body, h1 {
+    margin: 0;
+}
+
+a:link {
+  color: #E0246A;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #C2084F;
+}
+
+a:hover {
+  color: #FFB8D4;
+}
+
+a:active {
+  color: #FFDA4A;
+}
+	
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    flex: 2;
+    background-color: #FFE5F0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #FFE5F0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    flex: 2;
+    background-color: #FFE5F0;
+    padding: 10px;
+    margin: 0;
+}
+body, h1 {
+    margin: 0;
+}
+
+	</style>
+	
+</head>
+
 <body>
-OKAY
+	<header style="border: 2px #E0246A">
+		<h1 style="color: #FF4088;">ASSIGNMENT</h1>
+		<nav>
+        <ul>
+            <a href="#home">Home</a> &nbsp; <a href="#about">About</a> &nbsp; <a href="#services">Services</a> &nbsp; <a href="#contact">Contact</a></a>
+			<hr style="height:2px;border-width:0;color:gray;background-color:#E0246A">
+        </ul>
+		</nav>
+	</header>
+<br>
+    <div class="container">
+        <main class="main-content">
+            <h1 style="color: #FF4088;">Main Content Area</h1>
+			<section>
+			<video controls width="600" height="400" poster="thumbnail.jpg">
+				<source src="Video/silly_cat_video.mp4" type="video/mp4">
+				<source src="movie.webm" type="video/webm">
+			</section>
+        </main>
+        <aside class="sidebar">
+            <h2 style="color: #FF4088;">Sidebar</h2>
+			<p>Example here:</p>
+            <p><img src="Images/cat-pic1.jpg" alt="Cat" width="250px"></p>
+        </aside>
+    </div>
+	<br>
+    <footer style="border: 2px #E0246A">
+    <form action="action_page.php" method="POST">
+        
+        <label for="name"  style="color: #FF4088;">Name:</label><br>
+        <input type="text" id="name" name="user_name" placeholder="Your name.." required><br><br>
+        
+        <label for="email"  style="color: #FF4088;">Email:</label><br>
+        <input type="email" id="email" name="user_email" placeholder="Your email.." required><br><br>
+        
+        <label for="subject"  style="color: #FF4088;">Subject:</label><br>
+        <input type="text" id="subject" name="subject_line" placeholder="Subject.." required><br><br>
+
+        <label for="message"  style="color: #FF4088;">Message:</label><br>
+        <!-- Textarea for longer messages -->
+        <textarea id="message" name="user_message" placeholder="Write something.." rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    </footer>
 </body>
+</html>
