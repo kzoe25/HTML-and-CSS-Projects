@@ -1,5 +1,5 @@
 table {
-	border: 1px solid white;
+	border: 1px solid black;
 }
 
 td:hover {
@@ -9,7 +9,7 @@ td:hover {
 
 tr, th {
 	background-color: black;
-	color: cornsilk;
+	color: white;
 }
 
 tr, td {
