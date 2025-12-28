@@ -1,0 +1,19 @@
+table {
+	border: 1px solid white;
+}
+
+td:hover {
+	background-color: #FFDBE6;
+	color: #FF698E;
+}
+
+tr, th {
+	background-color: black;
+	color: cornsilk;
+}
+
+tr, td {
+	background-color: darkpink;
+	color: white;
+}
+
