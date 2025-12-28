@@ -1,0 +1,25 @@
+ol {
+	background: #FF698E;
+	padding: 30px;
+}
+	
+ol li {
+	list-style-type: upper-roman;
+	background: #FFBFCF;
+	color: #9C253F;
+	padding: 10px;
+	margin-left; 20px;
+}
+	
+ul {
+	background: #FF698E;
+	padding: 30px;
+}
+	
+ul li {
+	list-style-type: square;
+	background: #FFBFCF;
+	color: #9C253F;
+	padding: 10px;
+	margin-left; 20px;
+}
