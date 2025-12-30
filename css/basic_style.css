@@ -67,7 +67,13 @@ h1 {
     HOVER, TRANSLATE & TRANSFORM EFFECTS
 ----------------------------------------------*/
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("..project-images/icons/icon2.png")
+    background-image: url("..project-images/icons/icon2.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5. .2, .3, 2);
+
 }
 
 .squares:nth-child(1):hover {
@@ -84,4 +90,17 @@ h1 {
 
 .squares:nth-child(4):hover {
     background: #77b800;
+}
+
+/* ----------------------------------------------------
+    ANIMATION EFFECTS
+-----------------------------------------------------*/
+@keyframes race {
+    0%, 100% {
+        transform: translateY(opx);
+        background-image: url("..project-images/icons/icon2.png");
+    }
+    50% {
+        tranform: translateY(300px);
+    }
 }
