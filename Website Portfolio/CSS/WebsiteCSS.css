@@ -1,0 +1,84 @@
+/* ---------- BODY ---------- */
+
+body {
+  /* cute tiled background */
+  background:
+	url("https://i.pinimg.com/1200x/6c/33/99/6c3399f5c27956b70947ab9cbe1cb009.jpg") repeat;
+  font-family: "Rainyhearts", sans-serif;
+  color: #333;
+  line-height: 1.4;
+}
+	
+.main {
+  background:
+	url("https://i.pinimg.com/736x/77/d1/20/77d1207274c2ac8f1781c720777371df.jpg");
+	  background-repeat: repeat;
+  
+  border: 2px solid #f1c5d3;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0 #e29ab7;
+  padding: 14px 16px 18px;
+  font-size: 20px;
+}
+
+.main-header {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #7b5867;
+}
+
+.main-header a {
+  padding: 2px 4px;
+  background: #ffe9f3;
+  border-radius: 2px;
+  border: 1px solid #f1c5d3;
+  margin-right: 4px;
+}
+
+.journal-entry {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px dashed #f1c5d3;
+}
+
+.entry-meta {
+  font-size: 0.8rem;
+  color: #8d6677;
+  margin-bottom: 4px;
+}
+
+.entry-title {
+  font-weight: bold;
+  color: #b54573;
+  margin-bottom: 4px;
+}
+
+.entry-body {
+  margin-top: 4px;
+  white-space: pre-wrap; /* lets you write like plain text with line breaks */
+}
+
+.entry-tags {
+  font-size: 15px;
+  margin-top: 6px;
+  color: #8d6677;
+}
+
+.entry-tags span {
+  background: #ffe9f3;
+  border-radius: 2px;
+  padding: 1px 4px;
+  border: 1px solid #f1c5d3;
+  margin-right: 3px;
+}
+
+.entry-nav {
+  margin-top: 10px;
+  font-size: 0.75rem;
+  border-top: 1px dotted #f1c5d3;
+  padding-top: 6px;
+}
+
+.entry-nav a {
+  margin-right: 6px;
+}

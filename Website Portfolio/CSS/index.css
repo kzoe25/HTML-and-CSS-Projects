@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	float: left;
+	padding: 10px;
+}
+
+.header-a {
+	width: 25%;
+}
+
+.header-b {
+	width: 75%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
