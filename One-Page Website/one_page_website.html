@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<body style=background-color:#FFA8BD;>
     <link rel="stylesheet" type="text/css" href="CSS/one_page_website.css">
-    <script src="JS/one_page_website.js"
+    <script src="JS/one_page_website.js"></script>
 	
 </head>
 
@@ -32,8 +32,20 @@
         </main>
         <aside class="sidebar">
             <h2 style="color: #FF4088;">Sidebar</h2>
-			<p>Example here:</p>
-            <p><img src="Images/cat-pic1.jpg" alt="Cat" width="250px" onclick="openModal();currentSlide(1)" class="hover-shadow"></p>
+			<p>Click Image!
+            </p>
+            <p><img src="Images/cat-pic1.jpg" alt="Cat" width="250px" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></p>
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <div class="numbertext"> 1 / 1</div>
+                        <img src="Images/cat-pic1.jpg" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
         </aside>
     </div>
 	<br>
